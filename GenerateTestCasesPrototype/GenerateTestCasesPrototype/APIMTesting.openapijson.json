@@ -1,0 +1,147 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "APIM Testing",
+        "description": "",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "https://calebtestingapim.azure-api.net/apimtesting"
+        }
+    ],
+    "paths": {
+        "/portal_/home": {
+            "get": {
+                "summary": "Portal",
+                "operationId": "portal",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/DefaultTenant/orchestrator_": {
+            "get": {
+                "summary": "Orchestrator",
+                "operationId": "orchestrator",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/studio_": {
+            "get": {
+                "summary": "Studio",
+                "operationId": "studio",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/apps_": {
+            "get": {
+                "summary": "Apps",
+                "operationId": "apps",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/DefaultTenant/actions_": {
+            "get": {
+                "summary": "Actions",
+                "operationId": "actions",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/DefaultTenant/processes_": {
+            "get": {
+                "summary": "Processes",
+                "operationId": "processes",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/DefaultTenant/du": {
+            "get": {
+                "summary": "Document Understanding",
+                "operationId": "document-understanding",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/portal_/api/filtering/leftnav/tenantsAndOrganizationInfo": {
+            "get": {
+                "summary": "Get Tenants and Org Info",
+                "operationId": "get-tenants-and-org-info",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/calebmartinsorg/DefaultTenant/orchestrator_/odata/Folders": {
+            "post": {
+                "summary": "Create Folder",
+                "operationId": "create-folder",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        },
+        "/caleartinsorg/DefaultTenant/orcchestrator": {
+            "get": {
+                "summary": "Orchestrator Bad",
+                "operationId": "orchestrator-bad",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "apiKeyHeader": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "header"
+            },
+            "apiKeyQuery": {
+                "type": "apiKey",
+                "name": "subscription-key",
+                "in": "query"
+            }
+        }
+    },
+    "security": [
+        {
+            "apiKeyHeader": []
+        },
+        {
+            "apiKeyQuery": []
+        }
+    ]
+}

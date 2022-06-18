@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "a+6q+QmNwoS1hXNieS0cqcM6+AHql0W9Urhdy4mx++z1frEWtIyTnLXMLefXzBbMtv7rVJk80/93LOG5BI3Fmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caleb.martin\\source\\repos\\GenerateTestCasesPrototype2\\GenerateTestCasesPrototype2\\GenerateTestCasesPrototype2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caleb.martin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\caleb.martin\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
+    "C:\\Users\\caleb.martin\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateTestCasesPrototype2", "GenerateTestCasesPrototype2\GenerateTestCasesPrototype2.csproj", "{45D3E6B5-3D7B-42B5-83FC-E0D1888DB0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiXUnitTests", "ApiXUnitTests\ApiXUnitTests.csproj", "{89DCB206-058D-499A-874F-D6A7D806DAF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D3E6B5-3D7B-42B5-83FC-E0D1888DB0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D3E6B5-3D7B-42B5-83FC-E0D1888DB0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D3E6B5-3D7B-42B5-83FC-E0D1888DB0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D3E6B5-3D7B-42B5-83FC-E0D1888DB0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DCB206-058D-499A-874F-D6A7D806DAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DCB206-058D-499A-874F-D6A7D806DAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DCB206-058D-499A-874F-D6A7D806DAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DCB206-058D-499A-874F-D6A7D806DAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E82C15D5-F38C-42F8-81A3-61364F070F3D}
+	EndGlobalSection
+EndGlobal

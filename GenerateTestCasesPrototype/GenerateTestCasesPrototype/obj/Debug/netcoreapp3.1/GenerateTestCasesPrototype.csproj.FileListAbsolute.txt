@@ -1,0 +1,16 @@
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\GenerateTestCasesPrototype.exe
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\GenerateTestCasesPrototype.deps.json
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\GenerateTestCasesPrototype.runtimeconfig.json
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\GenerateTestCasesPrototype.runtimeconfig.dev.json
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\GenerateTestCasesPrototype.dll
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\GenerateTestCasesPrototype.pdb
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.csproj.AssemblyReference.cache
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.AssemblyInfoInputs.cache
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.AssemblyInfo.cs
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.csproj.CoreCompileInputs.cache
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.dll
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.pdb
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.genruntimeconfig.cache
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\caleb.martin\source\repos\GenerateTestCasesPrototype\GenerateTestCasesPrototype\obj\Debug\netcoreapp3.1\GenerateTestCasesPrototype.csproj.CopyComplete

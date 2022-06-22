@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caleb.martin\\source\\repos\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj": {}
+    "C:\\Users\\hmh19\\workspace\\APIMTestingPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caleb.martin\\source\\repos\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj": {
+    "C:\\Users\\hmh19\\workspace\\APIMTestingPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caleb.martin\\source\\repos\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj",
+        "projectUniqueName": "C:\\Users\\hmh19\\workspace\\APIMTestingPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj",
         "projectName": "GenerateTestCasesPrototype",
-        "projectPath": "C:\\Users\\caleb.martin\\source\\repos\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj",
-        "packagesPath": "C:\\Users\\caleb.martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caleb.martin\\source\\repos\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\obj\\",
+        "projectPath": "C:\\Users\\hmh19\\workspace\\APIMTestingPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype.csproj",
+        "packagesPath": "C:\\Users\\hmh19\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmh19\\workspace\\APIMTestingPrototype\\GenerateTestCasesPrototype\\GenerateTestCasesPrototype\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caleb.martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmh19\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,12 +55,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

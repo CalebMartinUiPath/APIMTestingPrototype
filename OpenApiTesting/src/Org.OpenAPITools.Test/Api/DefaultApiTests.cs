@@ -12,12 +12,16 @@ using System.IO;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Net;
 using System.Reflection;
+using System.Threading.Tasks;
 using RestSharp;
 using Xunit;
 
 using Org.OpenAPITools.Client;
 using Org.OpenAPITools.Api;
+using UiPath.TestFixture.Mock;
+using UiPath.TestFixture.Mock.context;
 
 namespace Org.OpenAPITools.Test.Api
 {
@@ -66,10 +70,31 @@ namespace Org.OpenAPITools.Test.Api
         /// Test Apps
         /// </summary>
         [Fact]
-        public void AppsTest()
+        public async Task AppsTest()
         {
-            // TODO uncomment below to test the method and replace null with proper value
-            instance.Apps();
+            var fixture = await DependencyTestFixture.Of(DependencyMode.LocationService);
+            var apiResponse = new ApiResponse<EmptyType>(HttpStatusCode.InternalServerError, new EmptyType(), "response not ok");
+            var expectedResponse = new MockResponse
+            {
+                Content = apiResponse
+            };
+
+            // Arrange
+            fixture
+                .Setup()
+                .Returns(expectedResponse);
+            SetHeader(expectedResponse.id);
+
+            // Act
+            instance.AppsWithHttpInfo();
+
+            // Assert
+
+        }
+
+        private void SetHeader(Guid id)
+        {
+            instance.Configuration.DefaultHeaders["X-MockService-Host"] = $"https://test-fixture-ii.azurewebsites.net/api/{id}";
         }
 
         /// <summary>

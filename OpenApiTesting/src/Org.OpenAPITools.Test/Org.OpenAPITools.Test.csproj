@@ -3,8 +3,8 @@
   <PropertyGroup>
     <AssemblyName>Org.OpenAPITools.Test</AssemblyName>
     <RootNamespace>Org.OpenAPITools.Test</RootNamespace>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
     <IsPackable>false</IsPackable>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\UiPath.TestFixture.Mock\UiPath.TestFixture.Mock.csproj" />
     <ProjectReference Include="..\Org.OpenAPITools\Org.OpenAPITools.csproj" />
   </ItemGroup>
 
